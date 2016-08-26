@@ -11,13 +11,14 @@ package examenlabprogra1;
  */
 public class Registro {
     
-    String nombre, apellido, numero, correo;
+    String nombre, apellido, numero, correo, pais;
     
     
-    public Registro(String fname, String lname, String num, String mail){
+    public Registro(String fname, String lname, String num, String mail, String count){
         nombre = fname;
         apellido = lname;
         numero = num;
         correo = mail;
+        pais = count;
     }
 }
